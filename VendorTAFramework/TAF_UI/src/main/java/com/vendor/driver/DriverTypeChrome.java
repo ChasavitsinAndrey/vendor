@@ -36,7 +36,7 @@ public class DriverTypeChrome implements DriverType {
         chromePrefs.put("profile.content_settings.exceptions.automatic_downloads.*.setting", 1);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--test-type");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         options.addArguments("--disable-extensions"); //to disable browser extension popup
         options.setExperimentalOption("prefs", chromePrefs);
         options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);

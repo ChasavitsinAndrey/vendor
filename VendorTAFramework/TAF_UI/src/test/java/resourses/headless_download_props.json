@@ -1,0 +1,7 @@
+{
+  "cmd": "Page.setDownloadBehavior",
+  "params": {
+    "behavior": "allow",
+    "downloadPath": "D:\\downloadsTest"
+  }
+}

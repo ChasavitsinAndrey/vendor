@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TAF_Core" />
         <module name="TAF_UI" />
+        <module name="TAF_Core" />
+        <module name="TAF_API" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="TAF_API" target="8" />
       <module name="TAF_Core" target="8" />
       <module name="TAF_UI" target="8" />
       <module name="VendorTAFramework" target="8" />

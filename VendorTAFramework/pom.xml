@@ -36,7 +36,7 @@
             <artifactId>lombok</artifactId>
             <version>1.18.4</version>
         </dependency>
-<!--        Work with JSON-->
+        <!--        Work with JSON-->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -52,7 +52,7 @@
             <artifactId>json</artifactId>
             <version>20160810</version>
         </dependency>
-<!--        Surefire plugin-->
+        <!--        Surefire plugin-->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
@@ -89,5 +89,6 @@
     <modules>
         <module>TAF_Core</module>
         <module>TAF_UI</module>
+        <module>TAF_API</module>
     </modules>
 </project>
