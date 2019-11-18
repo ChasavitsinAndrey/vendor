@@ -12,7 +12,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 
 @Slf4j
-public class BaseTest {
+public abstract class BaseTest {
 
     private WebDriverManager manager;
 

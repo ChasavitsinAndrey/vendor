@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b71dd12-0d23-4d75-a55c-b95d3c093e66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TAF_UI/src/main/java/resourses/download_basic_props.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TAF_UI/src/test/java/resourses/headless_download_props.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/ClientBaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/ClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/IClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/UberClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/environment/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/interceptor/RequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_API/src/main/resourses/download_basic_props.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_API/src/main/resourses/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/pojo/download_ui/DownloadProps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/pojo/download_ui/Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTestWithDownload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_Core/src/main/java/com/vendor/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF_Core/TAF_Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_Core/TAF_Core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TAF_UI/TAF_UI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_UI/TAF_UI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_UI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/driver/DriverTypeChrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/driver/DriverTypeChrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/utils/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_Core/src/main/java/com/vendor/utils/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/utils/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_Core/src/main/java/com/vendor/utils/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/utils/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_Core/src/main/java/com/vendor/utils/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/utils/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_Core/src/main/java/com/vendor/utils/PropertyReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/target/classes/com/vendor/utils/Converter$CustomList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/target/classes/com/vendor/utils/Converter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/target/classes/com/vendor/utils/DataGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/target/classes/com/vendor/utils/JsonReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/target/classes/com/vendor/utils/PropertyReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF_UI/target/test-classes/com/vendor/scenario/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_UI/target/test-classes/com/vendor/scenario/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/LoginNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/LoginNegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VendorTAFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VendorTAFramework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -40,14 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/driver/DriverTypeChrome.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/factory/WebDriverFactoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -55,71 +49,95 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/page/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TAF_UI/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VendorTAFramework.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TAF_Core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/LoginNegativeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="90" lean-forward="true" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="459">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/listener/WebDriverListener.java">
+        <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/manager/WebDriverManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/LoginNegativeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/action/EventAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTestWithDownload.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/WebDriverHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/manager/WebDriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -129,12 +147,21 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/TAF_UI/src/test/java/resourses/headless_download_props.json" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/TAF_API/pom.xml" />
         <option value="$PROJECT_DIR$/TAF_UI/src/main/java/resourses/basic_download.properties" />
         <option value="$PROJECT_DIR$/TAF_UI/src/main/java/resourses/download_basic_props.json" />
         <option value="$PROJECT_DIR$/TAF_UI/pom.xml" />
         <option value="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/driver/DriverTypeChrome.java" />
+        <option value="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/environment/Environment.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/ClientConfig.java" />
+        <option value="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/UberClientImpl.java" />
+        <option value="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/pojo/download_ui/DownloadProps.java" />
+        <option value="$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/pojo/download_ui/Params.java" />
+        <option value="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/IClient.java" />
+        <option value="$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTest.java" />
+        <option value="$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/LoginNegativeTest.java" />
+        <option value="$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTestWithDownload.java" />
       </list>
     </option>
   </component>
@@ -146,7 +173,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1748" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -188,6 +216,21 @@
               <item name="TAF_API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resourses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="TAF_API" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="TAF_API" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,44 +238,9 @@
               <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
               <item name="TAF_API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="TAF_Core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="TAF_Core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="TAF_Core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="TAF_Core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="TAF_Core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -284,6 +292,16 @@
               <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
               <item name="TAF_UI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="TAF_UI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,6 +320,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VendorTAFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="TAF_UI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VendorTAFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -323,11 +351,17 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TAF_API/src/main/java/com/vendor" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vendor\VendorTAFramework\TAF_API\src\main\java\com\vendor" />
+      <recent name="D:\vendor\VendorTAFramework\TAF_API\src\main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -386,11 +420,33 @@
     <history-entry file="LoginNegativeTest_isErrorBlockDisplayed - 2019.11.12 at 15h 53m 37s.xml">
       <configuration name="LoginNegativeTest.isErrorBlockDisplayed" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginNegativeTest_isErrorBlockDisplayed - 2019.11.18 at 11h 56m 45s.xml">
+      <configuration name="LoginNegativeTest.isErrorBlockDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginNegativeTest_isErrorBlockDisplayed - 2019.11.18 at 11h 57m 06s.xml">
+      <configuration name="LoginNegativeTest.isErrorBlockDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginNegativeTest_isErrorBlockDisplayed - 2019.11.18 at 12h 00m 16s.xml">
+      <configuration name="LoginNegativeTest.isErrorBlockDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginNegativeTest_isErrorBlockDisplayed - 2019.11.18 at 12h 04m 24s.xml">
+      <configuration name="LoginNegativeTest.isErrorBlockDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginNegativeTest_isErrorBlockDisplayed - 2019.11.18 at 12h 29m 06s.xml">
+      <configuration name="LoginNegativeTest.isErrorBlockDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginNegativeTest_isErrorBlockDisplayed - 2019.11.18 at 12h 29m 34s.xml">
+      <configuration name="LoginNegativeTest.isErrorBlockDisplayed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginNegativeTest_isErrorBlockDisplayed - 2019.11.18 at 12h 32m 55s.xml">
+      <configuration name="LoginNegativeTest.isErrorBlockDisplayed" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,7 +455,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -415,6 +471,24 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTestWithDownload.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTestWithDownload.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore" />
@@ -435,13 +509,6 @@
     <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/resourses/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/listener/WebDriverListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/page/oldexample/UberCheckoutPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
@@ -449,40 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/page/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/page/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TAF_Core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VendorTAFramework.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/resourses/basic_download.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/resourses/basic_download.properties" />
     <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/resourses/download_basic_props.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -497,36 +531,239 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/VendorTAFramework.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_Core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/listener/WebDriverListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="102">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_API/src/test/java/com/vendor/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_API/src/main/resourses/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/environment/Environment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/interceptor/RequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TAF_UI/pom.xml">
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/pojo/download_ui/Params.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/LoginNegativeTest.java">
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/pojo/download_ui/DownloadProps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="90" lean-forward="true" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/IClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/ClientConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/UberClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_API/src/main/java/com/vendor/ClientBaseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/page/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/driver/DriverTypeChrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
+        <state relative-caret-position="217">
           <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/driver/DriverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/factory/WebDriverFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/manager/WebDriverManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/manager/WebDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/WebDriverHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTestWithDownload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/ClassImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/ClassHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="335" selection-start-line="335" selection-end-line="335" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/ObjectFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/page/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/LoginNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/main/java/com/vendor/action/EventAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TAF_UI/src/test/java/com/vendor/scenario/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
           </folding>
         </state>
       </provider>

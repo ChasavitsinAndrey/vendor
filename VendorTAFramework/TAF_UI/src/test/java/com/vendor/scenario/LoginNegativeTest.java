@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class LoginNegativeTest extends BaseTest {
+public class LoginNegativeTest extends BaseTestWithDownload {
 
     private LoginPage loginPage;
 
